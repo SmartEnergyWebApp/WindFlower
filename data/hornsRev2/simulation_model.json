@@ -1,0 +1,13 @@
+{
+  "version": "1.2",
+    "wake_model": "park",
+    "wind_data_type": "weibull",
+    "interpolation_method":"bilinear",
+    "turbine_height_wind_speed_adjustment": true,
+    "num_wind_speeds": 30,
+    "num_wind_directions": 28,
+    "loss_wind_speed_percentage": 98.5,
+    "loss_wake_effect_percentage": 90.99,
+    "loss_power_curve_percentage": 98.8,
+    "loss_plant_performance_percentage": 88.5
+  }

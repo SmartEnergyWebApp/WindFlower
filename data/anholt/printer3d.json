@@ -1,0 +1,7 @@
+{
+"version": "1.2",
+  "wind_direction": 0.0,
+  "print_restricted_areas": true,
+  "print_topography": true,
+  "print_logo": false
+}

@@ -1,0 +1,39 @@
+{
+"version": "1.2",
+    "uq_type_comment":"MonteCarlo, quasiMonteCarlo, StochasticCollocation",
+    "pdf_type_comment":"normal, uniform, weibull",
+    "uncertainties_name_comment":"uq_windspeed, uq_wakeeffect, uq_ctcurve, uq_surfaceroughness, uq_powercurve, uq_plantperformance",
+    "method":"MonteCarlo",
+    "sample_size":50,
+    "uq_windspeed": {
+        "consider":true,
+        "pdf_type":"normal",
+        "p90_percentage":8
+    },
+    "uq_wakeeffect": {
+        "consider":true,
+        "pdf_type":"normal",
+        "p90_percentage":3
+    },
+    "uq_ctcurve": {
+        "consider":true,
+        "pdf_type":"normal",
+        "p90_percentage":2
+    },
+    "uq_surfaceroughness": {
+        "consider":true,
+        "pdf_type":"normal",
+        "p90_percentage":0.000021
+    },
+    "uq_powercurve": {
+        "consider":true,
+        "pdf_type":"normal",
+        "p90_percentage":2
+    },
+    "uq_plantperformance": {
+        "consider":true,
+        "pdf_type":"normal",
+        "p90_percentage":2.3
+    },
+    "sparse_grid_level":2
+}

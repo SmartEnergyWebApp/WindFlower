@@ -1,0 +1,6 @@
+{
+"version": "1.2",
+    "wind_measurement_height" : 100,
+    "number_direction_slots" : 12,
+    "meteo_filetype": "FINOMetMast"
+}

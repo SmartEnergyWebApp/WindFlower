@@ -1,0 +1,101 @@
+{
+"version": "1.2",
+	"close_packing": {
+		"rotate_corners":true,
+
+		"matrix_radius_factor":9,
+		"matrix_positions_per_side":11,
+		"multiplication_factor":18,
+
+		"min_dis_factor":2,
+
+		"threshold_steps":10,
+		"min_threshold":0.95,
+		"max_threshold":1,
+		"relative_number_of_max_allowed_positions":1,
+
+		"ellipse_distance_factor":7,
+		"ellipse_stretch_factor":2,
+		"mesh_positions_per_side": 3000
+	},
+
+	"genetic_algorithm": {
+		"discrete_map_resolution": 10000,
+
+		"population_size": 5,
+
+		"mutation_rate": 0.5,
+
+		"pos_to_mutate_min": 5,
+		"pos_to_mutate_max": 10,
+		"mutation_strength": 0.3,
+
+		"elitism": 4,
+		"parent_elitism": 0,
+		"prefer_better_parents": true,
+		"random_fraction": 0,
+		"pattern_fraction": 0,
+
+		"stopping_criteria_max_it": 100,
+		"stopping_criteria_max_fit": 1.0,
+		"max_chromosome_creation_attempts": 50,
+		"mutate_local_search": false
+	},
+
+	"local_search": {
+		"max_cpu_time": 300,
+		"max_iterations": 0,
+		"min_improvement": 1,
+		"output_solution_mode": 0,
+		"output_solution_frequency": 1,
+		"max_neighborhoods": 5,
+		"move_directions": 8,
+		"eval_radius": 10,
+
+		"max_cpu_time": 0,
+		"max_iterations": 100,
+		"min_improvement": 1.0001000,
+		"output_solution_mode": 0,
+		"output_solution_frequency": 1,
+		"max_neighborhoods": 5,
+		"move_directions": 8
+	},
+
+	"pattern": {
+	  "amount_turbines":80,
+	  "min_density_change": 0.00001,
+
+	  "growth_lower_inc":0.01,
+	  "growth_upper_inc":1.01,
+	  "growth_steps":1,
+
+	  "angle_steps":9,
+
+	  "distance_steps":6,
+
+	  "//funcs":"//0:TRIANGLE, 1:CORNERS, 2:MAX_SIDE, 3:RHOMBUS, 4:SIMULATION, 5:ELLIPSE",
+	  "main_function":4,
+	  "second_function":2,
+	  "third_function":3,
+	  "ellipse_distance_factor":7,
+	  "ellipse_stretch_factor":2,
+	  "rotate_corners":false
+	},
+
+	"utility_data": {
+		"chain_": ["hexagon_grid", "square_grid", "genetic_algorithm", "local_search"],
+		"chain": ["genetic_algorithm"],
+		"num_turbines": 100,
+		"radius_turbine": 20.0,
+		"safety_distance": 50.0,
+
+		"wind_direction": 0,
+
+		"function": "annual_energy_production",
+
+		"objective_function": "simulation",
+		"ellipse_distance_factor": 7,
+		"ellipse_stretch_factor":  2,
+		"openmp_threads":1
+	}
+}

@@ -1,0 +1,33 @@
+{
+  "field_boundaries_long_lat": [
+    [
+      11.13223,
+      56.70323
+    ],
+    [
+      11.18957,
+      56.702
+    ],
+    [
+      11.32535,
+      56.57201
+    ],
+    [
+      11.17052,
+      56.5
+    ]
+  ],
+  "restricted_areas_long_lat": [],
+  "substations_long_lat": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "surface_roughness": 0.2,
+  "version": "1.2"
+}

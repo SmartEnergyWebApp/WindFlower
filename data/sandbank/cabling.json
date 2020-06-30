@@ -1,0 +1,85 @@
+{
+    "version": "1.2",
+        "power_loss_percentage": 92.5,
+        "cable_voltage": 33000,
+        "structure": "string",
+        "site_main_frequency": 50,
+        "max_cable_types": 3,
+        "cost_cable_connect": 66266,
+        "cost_generator": 5000,
+        "cable_types":[
+            {
+                "id": 1,
+                "material_cost": 131,
+                "current_rating": 384,
+                "cable_capacity": 0.22,
+                "ac_resistance": 0.16,
+                "insulation_loss_factor": 0.04
+            },
+            {
+                "id": 2,
+                "material_cost": 147,
+                "current_rating": 415,
+                "cable_capacity": 0.21,
+                "ac_resistance": 0.13,
+                "insulation_loss_factor": 0.04
+            },
+            {
+                "id": 3,
+                "material_cost": 166,
+                "current_rating": 430,
+                "cable_capacity": 0.23,
+                "ac_resistance": 0.13,
+                "insulation_loss_factor": 0.04
+            },
+            {
+                "id": 4,
+                "material_cost": 173,
+                "current_rating": 490,
+                "cable_capacity": 0.26,
+                "ac_resistance": 0.10,
+                "insulation_loss_factor": 0.04
+            },
+            {
+                "id": 5,
+                "material_cost": 198,
+                "current_rating": 543,
+                "cable_capacity": 0.27,
+                "ac_resistance": 0.08,
+                "insulation_loss_factor": 0.04
+            },
+            {
+                "id": 6,
+                "material_cost": 234,
+                "current_rating": 600,
+                "cable_capacity": 0.3,
+                "ac_resistance": 0.06,
+                "insulation_loss_factor": 0.04
+            },
+            {
+                "id": 7,
+                "material_cost": 270,
+                "current_rating": 659,
+                "cable_capacity": 0.33,
+                "ac_resistance": 0.05,
+                "insulation_loss_factor": 0.04
+            },
+            {
+                "id": 8,
+                "material_cost": 400,
+                "current_rating": 721,
+                "cable_capacity": 0.37,
+                "ac_resistance": 0.04,
+                "insulation_loss_factor": 0.04
+            },
+            {
+                "id": 9,
+                "material_cost": 347,
+                "current_rating": 740,
+                "cable_capacity": 0.34,
+                "ac_resistance": 0.04,
+                "insulation_loss_factor": 0.04
+            }
+        ]
+    }
+    

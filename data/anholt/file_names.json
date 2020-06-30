@@ -1,0 +1,14 @@
+{
+"version": "1.2",
+    "site_settings":"site.json",
+    "simulation_settings":"simulation_model.json",
+    "economics_settings":"economics.json",
+    "turbine_settings":"turbine.json",
+    "uq_settings":"uq.json",
+    "positions":"positions_geo.csv",
+    "wind_weibull":"wind_weibull.json",
+    "wind_bins":"wind_bins.json",
+    "wind_raw_dir": "../../data/FINO3_Windrichtung_100m_105deg_20110701_20170630.dat",
+    "wind_raw_spd": "../../data/FINO3_Windgeschwindigkeit_100m_345deg_20110701_20170630.dat",
+    "cabling_settings":"cabling.json"
+}
